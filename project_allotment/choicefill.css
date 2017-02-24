@@ -1,0 +1,165 @@
+@charset "utf-8";
+
+body{
+	background-color: #ffffff;
+}
+#heading{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:43px;
+	font-weight:800;
+	color: white;
+	background-color:#321542;
+	border-top:3px solid black;
+	border-left:3px solid black;
+	border-right:3px solid black;
+}
+#dept{
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	background-color:#321542;
+	padding-bottom: 5px;
+	border-left:3px solid black;
+	border-right:3px solid black;
+	border-bottom:3px solid black;
+}
+#strip{
+	margin-top: 5px;
+	border: 2px solid black;
+	height: 40px;
+	padding: 3px;
+}
+
+#welcome{
+	float:left;
+	font-size:20px;
+	padding:10px;
+}
+#logout-btn{
+	float:right;
+	font-size: 20px;
+	padding:5px;
+	border:2px solid black;
+	background-color: #321542;
+	color : white;
+	font-weight: 400;
+	cursor:pointer;
+}
+#save-btn{
+	float:right;
+	font-size: 20px;
+	margin-right:10px;
+	padding:5px;
+	border:2px solid black;
+	background-color: #321542;
+	color : white;
+	font-weight: 400;
+	cursor: pointer;
+}
+#left{
+	width:50%;
+	float:left;
+}
+#right{
+	width:50%;
+	float:right;
+}
+.card-left{
+	border : 2px solid black;
+	height : 35px;
+	width: 450px;
+	margin-left:100px;
+	background-color: lightblue;
+}
+.card-right{
+	border : 2px solid black;
+	height : 35px;
+	width : 450px;
+	margin-left :70px;
+	background-color: lightgreen;
+}
+.name{
+	font-size: 16px;
+	width:70%;
+	margin-left: 7%;
+	padding-top: 4px;
+	float: left;
+}
+#enter{
+	width: 90px;
+	background-color: green;
+	height : 25px;
+	float : right;
+	margin-top: 4px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 5px;
+	font-size: 17px;
+}
+.remove{
+	width: 25px;
+	background-color: red;
+	height : 25px;
+	float : right;
+	margin-top: 4px;
+	text-align: center;
+	cursor: pointer;
+	margin-right: 5px;
+	font-size: 17px;
+	margin-left : 2px;
+}
+#remaining{
+	margin-left : 23%;
+}
+#nRemaining{
+	float : right;
+	margin-right : 32%;
+}
+#selected{
+	margin-left : 22%;
+}
+#nSelected{
+	float : right;
+	margin-right : 41%;
+}
+.up{
+	width: 25px;
+	background-color: green;
+	height : 25px;
+	float : right;
+	text-align: center;
+	cursor: pointer;
+	font-size: 17px;
+	margin : 2px;
+	margin-top : 4px;
+}
+.down{
+	width: 25px;
+	background-color: green;
+	height : 25px;
+	float : right;
+	text-align: center;
+	cursor: pointer;
+	font-size: 17px;
+	margin : 2px;
+	margin-top : 4px;
+}
+#lower{
+	width: 900px;
+	height: 50px;
+	background-color: red;
+	margin-top : 900px;
+}
+#submit-btn{
+	text-align: center;
+	width : 50%;
+	font-weight: 600;
+	background-color: lightgreen;
+	border : 3px solid green;
+	padding : 10px;
+	cursor: pointer;
+	margin-left: 120px;
+}

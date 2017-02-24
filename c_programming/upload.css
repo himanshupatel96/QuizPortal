@@ -1,0 +1,118 @@
+#header {
+	font-size: 45px;
+    background-color: tomato;
+    font-family: Verdana;
+    font-weight: 600;
+    padding: 10px;
+    border: 3px solid black;
+    border-radius: 20px;
+    color: cornsilk;
+}
+
+#instructor {
+    background-color: beige;
+    padding: 10px;
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 600
+}
+
+#upload {
+	font-size: 30px;
+    font-family: sans-serif;
+    background-color: bisque;
+    padding: 10px 0px 10px 180px;
+    margin: 0px 400px 0px 400px;
+}
+
+#addform {
+	margin: 20px 0px 20px 400px;
+    padding: 10px 0px 10px 20px;
+    font-size: 20px;
+    font-family: Verdana;
+}
+
+#text-input {
+	width: 370px;
+    height: 40px;
+    font-size: 17px;
+    font-family: monospace;
+    border: 2px solid bisque;
+    border-radius: 5px;
+}
+
+#add-form-sbmt {
+	height: 40px;
+    font-size: 20px;
+}
+
+#content-holder {
+    float: left;
+    width: 71%;
+}
+.result {
+	background-color: cadetblue;
+    margin: 0px 20px 20px 20px;
+    padding: 10px 20px 70px 20px;
+    min-height: 70px;
+}
+.head {
+    font-size: 30px;
+    font-family: monospace;
+    margin: 10px 0px 10px 30px;
+}
+
+.description{
+	margin: 10px 0px 10px 40px;
+    font-size: 20px;
+    font-style: oblique;
+}
+
+.download_button {
+	margin: 10px 10px 0px 40px;
+    float: left;
+    height: 40px;
+    min-width: 150px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: Verdana;
+}
+.delete_button {
+	margin: 10px 10px 0px 40px;
+    float: left;
+    height: 40px;
+    min-width: 200px;
+    font-size: 20px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-family: Verdana;
+}
+
+#links{
+    background-color: bisque;
+    margin:20px 10px 0px 72%;
+    padding:10px; 
+    width: 25%;
+    height: 850px;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+button{
+    cursor: pointer;
+}
+
+#developers{
+    font-size: 20px;
+    font-family: monospace;
+    margin-top: 10px;
+    bottom: 0px;
+    left:0px;
+    right: 0px;
+    padding:10px;
+    margin-top: 10px;
+    background-color: ;
+    color:black;
+    position: relative;
+}

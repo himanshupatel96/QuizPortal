@@ -1,0 +1,59 @@
+#content-holder{
+	width:90%;
+	min-height: 70%;
+	margin-left: 2%;
+	margin-top: 20px;
+}
+#num-holder{
+	width:100%;
+	color: white;
+	background-color: #39424e;
+	padding: 10px 0px 10px 38px;
+	font-size: 30px;
+	font-family: "Candara";
+	border-radius: 10px;
+}
+#ques-holder{
+	width: 100%;
+	font-family: "Lucida Bright";
+	padding:20px 20px 20px 20px;
+	background-color: #d3d3d3;
+	font-size: 20px;
+	border-radius: 20px;
+	word-break:break-all;
+}
+#opt-holder{
+	font-size: 20px;
+}
+.opt{
+	padding: 5px 0px 5px 10px;
+	margin-bottom: 5px;
+	width:100%;
+	font-size: 25px;
+}
+input[type=radio]{
+  visibility: hidden;
+}
+input[type=radio] + label:before {
+  height:20px;
+  width:20px;
+  margin-right: 30px;
+  content: " ";
+  display:inline-block;
+  border:2px solid black;
+  border-radius:0%;
+
+}
+input[type=radio]:checked + label:before{
+  border-radius:50%;
+    background-color: #66CD00;
+    border: 2px solid black;
+}
+.unselectable {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}

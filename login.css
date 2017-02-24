@@ -1,0 +1,99 @@
+@charset "utf-8";
+
+body{
+	background-color: grey;
+}
+#clg{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:2em;
+	font-weight:800;
+	color: white;
+	background-color:#39424e;
+}
+#dept{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	background-color:#39424e;
+	padding-bottom: 5px;
+}
+
+#form{
+	margin-top: 100px;
+	margin-left: 100px;
+	margin-right: auto;
+	text-align: left;
+	float : left;
+}
+
+#login-head{
+	color: white;
+	text-align: center;
+	font-family: "Courier New";
+	font-size: 25px;
+	background-color: #39424e;
+	padding: 6px;
+}
+#stuname, #regno, #key{
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    width: 300px;
+    height: 30px;
+    font-size: 20px;
+}
+
+#info{
+	background-color: white;
+	float: right;
+	margin-right: 70px;
+	margin-top: 100px;
+}
+
+#msg{
+
+	color: white;
+	font-family: "Courier New";
+	font-size: 25px;
+	align-content: center;
+	background-color: #39424e;
+	padding: 7px;
+	
+}
+
+select{
+	margin-left: 20px;
+	-webkit-border-radius:4px;
+    -moz-border-radius:4px;
+    border-radius:4px;
+    width: 60px;
+    height : 30px;
+    font-size: 20px;
+    text-align: center;
+}
+
+textarea:focus, input:focus, select:focus{
+    outline: none;
+}
+
+#enter{
+	width: 100%;
+	height: 35px;
+	font-size: 20px;
+	font-family: "Impact";
+	font-weight: 600;
+}
+
+#group{
+	margin-left: 15px;
+	margin-top: 18px;
+	font-size: 30px;
+	font-family: Verdana;
+	color: black;
+	float : left;
+}
+
+	

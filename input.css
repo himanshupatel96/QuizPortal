@@ -1,0 +1,52 @@
+body{
+	background-color: #39424e;
+}
+#head{
+	background-color: #39424e;
+	font-size: 40px;
+	color: white;
+	padding: 20px 20px 20px 425px; // T R B L
+}
+#header{
+	background-color: #39424e;
+}
+#ques-holder{
+	margin-left: 30px;
+	height: 400px;
+	width: 850px;
+	background-color: grey;
+}
+#ques{
+	background-color: #39424e;
+	width: 60%;
+	margin-left: 15%;
+}
+.q-field{
+
+	margin-left: 95px;
+	height: 150px;
+	width: 700px;
+	font-family: "Lucida Bright";
+	font-size: 18px;
+}
+.opt{
+	width: 320px;
+	height: 40px;
+	font-family: "Lucida Bright";
+	font-size: 18px;
+}
+#opt-holder{
+	margin-left: 50px;
+}
+#question{
+	margin-left: 95px;
+	margin-right: 105px;
+	font-size:25px;
+	font-weight: 400;
+	font-family: "Verdana";
+}
+#savebtn{
+	margin-left: 40%;
+	padding: 5px;
+	font-size: 25px;
+}

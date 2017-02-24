@@ -1,0 +1,49 @@
+@charset "utf-8";
+
+body{
+	background-color: #ffffff;
+}
+#heading{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:43px;
+	font-weight:800;
+	color: white;
+	background-color:#321542;
+	border-top:3px solid black;
+	border-left:3px solid black;
+	border-right:3px solid black;
+}
+#dept{
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	background-color:#321542;
+	padding-bottom: 5px;
+	border-left:3px solid black;
+	border-right:3px solid black;
+	border-bottom:3px solid black;
+}
+#strip{
+	margin-top: 5px;
+	border: 2px solid black;
+	height: 40px;
+	padding: 3px;
+}
+#welcome{
+	float:left;
+	font-size:20px;
+	padding:10px;
+}
+#logout-btn{
+	float:right;
+	font-size: 20px;
+	padding:5px;
+	border:2px solid black;
+	background-color: #321542;
+	color : white;
+	font-weight: 400;
+	cursor:pointer;
+}

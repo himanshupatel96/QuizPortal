@@ -1,0 +1,44 @@
+body{
+	background-color: grey;
+}
+#clg{
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	font-family:Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:2em;
+	font-weight:800;
+	color: white;
+	background-color:#39424e;
+}
+#dept{
+	text-align: center;
+	font-size: 22px;
+	color: white;
+	background-color:#39424e;
+	padding-bottom: 5px;
+}
+
+.heading{
+	text-align: center;
+	font-size: 30px;
+	margin-top: 20px;
+	background-color: #E86955;
+	color: white;
+	padding: 5px;
+}
+#formID{
+	margin-top: 40px;
+	text-align: center;
+	background-color: white;
+	border : solid 3px black;
+	width: 40%;
+	margin-left: 30%;
+	padding: 30px;
+}
+#uname, #passwd, #butt{
+	padding: 5px;
+	font-size: 25px;
+	margin : 20px;
+	border: solid 1px black;
+}
